@@ -67,7 +67,26 @@
               Do not fill this in
               <input type="text" name="_gotcha" tabindex="-1" autocomplete="off">
             </label>
-      
+    <label>
+    Name
+<input type="text" name="name" autocomplete="name" required>
+</label>
+
+<label>
+Email
+<input type="email" name="email" autocomplete="email" required>
+</label>
+
+<label>
+Message
+<textarea name="message" rows="6" required></textarea>
+</label>
+
+<button class="btn" type="submit">Send</button>
+
+<p class="muted small" id="form-status" role="status" aria-live="polite"></p>
+</form>
+
         </div>
       </div>
     </section>
