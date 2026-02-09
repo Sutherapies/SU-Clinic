@@ -417,21 +417,4 @@ input:focus, textarea:focus { outline: 2px solid rgba(0,0,0,0.12); }
   }
   .site-nav.is-open { display: flex; }
 }
-/* --- Services page: stop card content squeezing into thin columns --- */
-.services-page .cards {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  gap: 1rem;
-}
-
-.services-page .card {
-  display: flex;
-  flex-direction: column;
-  height: 100%;
-}
-
-.services-page .card p,
-.services-page .card ul {
-  max-width: 100%;
-}
 
