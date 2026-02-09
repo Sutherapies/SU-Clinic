@@ -417,3 +417,20 @@ input:focus, textarea:focus { outline: 2px solid rgba(0,0,0,0.12); }
   }
   .site-nav.is-open { display: flex; }
 }
+/* --- FIX: Services cards text wrapping into a thin column --- */
+.card {
+  display: block !important;
+}
+
+.card h2, .card p, .card ul, .card a {
+  max-width: 100% !important;
+}
+
+.card .card-media {
+  width: 100% !important;
+}
+
+.card .card-media img {
+  width: 100% !important;
+  height: auto !important;
+}
