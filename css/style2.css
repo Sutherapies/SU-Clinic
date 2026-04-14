@@ -439,7 +439,7 @@ input:focus, textarea:focus { outline: 2px solid rgba(0,0,0,0.12); }
 }
 
 .faq-item {
-  background: #ffffff;
+ background: #f9f6f4;
   padding: 20px;
   margin-top: 20px;
   border-radius: 12px;
