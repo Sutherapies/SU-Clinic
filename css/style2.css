@@ -275,6 +275,13 @@ a:hover { text-decoration: underline; }
 
 .list { margin: 0.6rem 0 0; padding-left: 1.2rem; }
 .list li { margin: 0.35rem 0; }
+.list {
+  padding-bottom: 2rem;
+}
+.hero-card {
+  height: auto;
+  min-height: 650px;
+}
 .link { font-weight: 600; }
 
 /* Trust */
